@@ -5,9 +5,9 @@ public class Person extends EliteProgrammer{
         this.fav_food = fav_food;
     }
 
-   private String name = "";
-   private String fav_song = "";
-   private String fav_food= "";
+   public String name = "Ayana";
+   public String fav_song = "This Is What We Came For";
+   public String fav_food = "Dark Chocolate";
 
     @Override
     public String getName() {
